@@ -52,6 +52,51 @@ a{
 }
 
 @media( min-width: 250px){
+
+    nav > ul{
+        display: none;
+    }
+    nav aside{
+        display: flex;
+        justify-content: space-between;
+        /* padding-left: 5%;
+        padding-right: 5%; */
+        background-color: var(--darkerBlack);
+        color: white;
+        align-items: center;
+    }
+    nav h2{
+        padding-left: 5vh;
+    }
+    details{
+        padding-right: 5%;
+        position: absolute;
+        width: 95%;
+        text-align: right;
+    }
+    details ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--darkerBlack);
+    }
+
+    details li{
+        display: flex;
+    }
+
+    details a{
+        color: white;
+        padding: 3%;
+        width: 100%;
+    }
+
+    summary{
+        font-size: 24px;
+    }
+    
+    /* NAVIGATION END */
     
     header{
         background-image: url("/img/pexels-faruk-tokluoğlu-7101497.jpg");
