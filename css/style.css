@@ -501,4 +501,22 @@ a {
     .features a:hover p{
         color: white;
     }
+
+    /* ABOUT DESKTOP */
+    .about{
+        align-items: center;
+    }
+
+    .about > article,
+    .about > section,
+    .about > blockquote{
+        width: 80%;
+    }
+
+    .about > blockquote{
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 79%;
+    } 
+
 }
