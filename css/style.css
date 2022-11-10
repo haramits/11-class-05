@@ -462,4 +462,43 @@ a {
         width: 40%;
         align-items: center;
     }
+
+    .features {
+        padding-top: 2vh;
+        row-gap: 0%;
+    }
+
+    .featuers blockquote{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    
+    .features article{
+        width: 70%;
+    }
+
+    .features i{
+        size: 60px;
+    }
+    .features a{
+        padding: 2%;
+        height: 30vh;
+        justify-content: space-evenly;
+    }
+
+    .features a:hover{
+        background-color: var(--darkerBlack);
+    }
+
+    .features a:hover > i{
+        color: white;
+    }
+
+    .features a:hover > h3{
+        color: var(--defaultColor);
+    }
+
+    .features a:hover p{
+        color: white;
+    }
 }
