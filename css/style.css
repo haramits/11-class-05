@@ -451,4 +451,15 @@ a {
     header{
         height: 60vh;
     }
+
+    /* NAVIGATION DESKTOP */
+    nav{
+        justify-content: space-evenly;
+    }
+    
+    nav ul{
+        padding-top: 0%;
+        width: 40%;
+        align-items: center;
+    }
 }
