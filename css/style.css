@@ -316,6 +316,38 @@ a {
 }
 
 @media ( min-width: 700px){
+
+      /* NAVIGATION TABLET */
+   nav {
+    padding: 3%;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ nav > ul {
+    padding-top: 20px;
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ nav > aside {
+    display: none;
+ }
+
+ nav li {
+    list-style-type: none;
+ }
+
+ nav a {
+    color: var(--lightBlack);
+ }
+
+ h1 {
+    font-size: 28px;
+ }
+ /* NAVIGATION TABLET END */
+
     header{
         height: 45vh;
     }
@@ -380,6 +412,35 @@ a {
 
     .about q{
         font-size: 16px;
+    }
+
+    footer aside, footer article{
+        row-gap: 1vh;
+    }
+
+    footer,
+    footer > article > section, footer > article > article{
+        row-gap: 2vh;
+
+    }
+
+    footer > section{
+        padding: 2%;
+        flex: row;
+        justify-content: space-between;
+    }
+
+    footer > article > section{
+        column-gap: .5vh;
+    }
+
+    footer a{
+        width: 3vh;
+        height: 3vh;
+    }
+
+    form{
+        justify-content: flex-end;
     }
 
 
