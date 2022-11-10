@@ -519,4 +519,26 @@ a {
         width: 79%;
     } 
 
+    /* FOOTER */
+
+    footer{
+        align-items: center;
+    }
+    footer > article{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 76%;
+    }
+
+    footer section{
+        padding-left: 12%;
+        padding-right: 12%;
+        width: 76%;
+        justify-content: space-between;
+    }
+
+    footer section > aside{
+        column-gap: .5vh;
+    }
 }
+
