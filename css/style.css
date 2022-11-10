@@ -320,6 +320,36 @@ a {
         height: 45vh;
     }
 
+    .features{
+        align-items: center;
+        padding-top: 1vh;
+    }
+
+    .features blockquote{
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .features > article{
+        width: 95%;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 2vh;
+        padding: 0%;
+    }
+
+    .features a{
+        width: 24%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .features h3{
+        width: 80%;
+        font-size: 16px;
+    }
+    
     .about{
         align-items: center;
     }
@@ -351,5 +381,7 @@ a {
     .about q{
         font-size: 16px;
     }
+
+
 
 }
