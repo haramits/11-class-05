@@ -105,7 +105,7 @@ a {
    /* NAVIGATION END */
 
    header {
-      background-image: url("/img/bg-header.jpg");
+      background-image: url("/img/pexels-faruk-tokluoğlu-7101497.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -312,5 +312,44 @@ a {
       padding-left: 5%;
    }
    /* ABOUT END */
-   
+
+}
+
+@media ( min-width: 700px){
+    header{
+        height: 45vh;
+    }
+
+    .about{
+        align-items: center;
+    }
+    .about section{
+        flex-direction: row;
+        justify-content: space-evenly;
+        column-gap: 3vh;
+    }
+
+    .about article p{
+        font-size: 16px;
+    }
+
+    .about > article{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .about a{
+        padding: 2%;
+        width: 45%;
+    }
+
+    .about blockquote, .about q,
+    .about cite{
+        padding: 1%;
+    }
+
+    .about q{
+        font-size: 16px;
+    }
+
 }
